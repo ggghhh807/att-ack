@@ -207,6 +207,32 @@
         audio {
             display: none;
         }
+
+        /* التجاوب مع الهواتف */
+        @media (max-width: 768px) {
+            .navbar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar ul li {
+                margin: 10px 0;
+            }
+
+            .main-content p {
+                font-size: 18px;
+                padding: 20px;
+            }
+
+            footer h2 {
+                font-size: 20px;
+            }
+
+            #contact-form input,
+            #contact-form textarea {
+                width: 90%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -223,13 +249,12 @@
 
     <!-- المحتوى الرئيسي -->
     <div class="main-content">
-        
         <p>          ملاحظة:
 
 فليحيى عابد الحرية    
 وايرين عمك وليس ونبيس    </p>
     </div>
-    <audio src="التسجيل (3).mp4" controls loop autoplay></audio>
+    <audio src="photoes/التسجيل (3).mp4" controls loop autoplay></audio>
 
     <!-- الفوتر -->
     <footer id="contact">
